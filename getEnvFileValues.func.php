@@ -20,4 +20,5 @@ function getEnvFileValues($env_file, $strings = false){
             }
         }
     }
+    return @$saida;
 }
