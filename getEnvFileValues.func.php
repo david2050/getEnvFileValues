@@ -1,5 +1,6 @@
 <?php
-
+// Function by @programadordavid -> SP BR
+// oproprio@programadordavid.com.br
 // User Strings as array if you need to get specific variables from .env file, like this $strings = Array("DB_HOST", "DB_DATABASE", "DB_USERNAME", "DB_USERNAME", "DB_PASSWORD");
 function getEnvFileValues($env_file, $strings = false){
     if(!@file_exists($env_file)){
